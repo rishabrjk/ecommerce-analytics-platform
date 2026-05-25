@@ -84,3 +84,11 @@ ecommerce-analytics-platform/
 ├── reports/
 ├── requirements.txt
 └── README.md
+
+## Visual Outputs
+
+### Monthly Revenue Trends
+![Monthly Revenue Trends](images/revenue_trends.png)
+
+### Customer Segments
+![Customer Segments](images/customer_segments.png)
