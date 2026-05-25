@@ -1,34 +1,86 @@
-#  Cloud-Based E-Commerce Analytics Platform
+# Cloud-Based E-Commerce Analytics Platform
 
-##  Overview
-Built a scalable analytics platform on Google Cloud Platform to process and analyze 100K+ e-commerce transactions. The system enables customer segmentation and business insights using SQL and serverless architecture.
+## Overview
+This project demonstrates a cloud-based analytics workflow for analysing e-commerce transaction data using Google BigQuery, SQL, Python, and Google Cloud Run.
 
-##  Key Results
-- Processed 100K+ transaction records
-- Identified 4 customer segments
-- Detected 22% churn-risk users
-- Reduced manual reporting effort by ~60%
+The aim was to build a scalable reporting workflow that can process large transaction datasets, identify revenue trends, highlight top-performing product categories, and segment customers for marketing and inventory decisions.
 
-##  Architecture
-GCP (BigQuery) → Data Processing (SQL + Python) → Cloud Run → Dashboard
+## Business Problem
+E-commerce teams need fast access to reliable sales and customer insights. Manual spreadsheet reporting can be slow, difficult to scale, and prone to errors.
 
-## Tech Stack
-- Google Cloud Platform (BigQuery, Cloud Run)
+This project explores how a serverless analytics workflow can support:
+
+- Monthly revenue tracking
+- Product category performance analysis
+- Customer segmentation
+- High-value customer identification
+- Marketing and inventory planning
+
+## Dataset
+The project uses an e-commerce transaction dataset containing 100,000+ records.
+
+Key fields include:
+
+- Order ID
+- Customer ID
+- Product category
+- Product name
+- Sale price
+- Order date
+- Customer segment indicators
+
+## Tools Used
 - SQL
+- Google BigQuery
+- Google Cloud Run
 - Python
-- Data Visualization
+- Pandas
+- Power BI / dashboarding
+- Git
 
-##  Key Features
-- Customer segmentation using SQL window functions
-- Scalable serverless data pipeline
-- Business intelligence dashboard
+## Methodology
+1. Loaded transaction data into BigQuery.
+2. Wrote SQL queries to aggregate revenue, product, and customer behaviour metrics.
+3. Analysed monthly sales trends and category-level performance.
+4. Segmented customers based on purchasing behaviour.
+5. Built reporting outputs and dashboard visuals.
+6. Designed a Cloud Run workflow to allow analytics jobs to be triggered through API calls.
 
-##  How to Run
-1. Clone the repository
-2. Set up GCP credentials
-3. Run data processing scripts
-4. Execute SQL queries in BigQuery
+## Key Analysis
 
-##  Future Improvements
-- Real-time streaming using Pub/Sub
-- ML-based churn prediction
+### Monthly Revenue Trends
+Analysed monthly sales patterns to identify demand changes and revenue growth over time.
+
+### Product Category Performance
+Identified top-performing products and categories based on total revenue and transaction volume.
+
+### Customer Segmentation
+Grouped customers based on purchasing behaviour to support more targeted marketing decisions.
+
+### Reporting Automation
+Designed a serverless workflow to reduce manual reporting effort and avoid dedicated infrastructure management.
+
+## Key Results
+- Processed 100,000+ e-commerce transaction records in BigQuery.
+- Built SQL queries for monthly revenue, product performance, and customer segmentation.
+- Identified high-value customer groups and product categories for business decision-making.
+- Demonstrated how serverless analytics can reduce reporting and infrastructure overhead.
+
+## Business Impact
+This project shows how cloud analytics can help e-commerce teams make faster decisions around:
+
+- Marketing spend
+- Inventory planning
+- Product prioritisation
+- Customer targeting
+- Revenue monitoring
+
+## Repository Structure
+```text
+ecommerce-analytics-platform/
+├── sql/
+├── notebooks/
+├── images/
+├── reports/
+├── requirements.txt
+└── README.md
