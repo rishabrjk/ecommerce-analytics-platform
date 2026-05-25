@@ -1,5 +1,6 @@
 # Cloud-Based E-Commerce Analytics Platform
 
+A cloud analytics project using Google BigQuery, SQL, Python, and Cloud Run to analyse 100,000+ e-commerce transaction records and generate business insights around revenue trends, product performance, and customer segmentation.
 ## Overview
 This project demonstrates a cloud-based analytics workflow for analysing e-commerce transaction data using Google BigQuery, SQL, Python, and Google Cloud Run.
 
