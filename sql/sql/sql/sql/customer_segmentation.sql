@@ -1,0 +1,2 @@
+-- Customer segmentation query
+-- Replace this with the final BigQuery SQL used in the project.
