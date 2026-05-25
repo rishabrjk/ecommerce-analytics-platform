@@ -77,6 +77,7 @@ This project shows how cloud analytics can help e-commerce teams make faster dec
 - Revenue monitoring
 
 ## Repository Structure
+
 ```text
 ecommerce-analytics-platform/
 ├── sql/
@@ -85,8 +86,15 @@ ecommerce-analytics-platform/
 ├── reports/
 ├── requirements.txt
 └── README.md
+```
 
 ## Visual Outputs
+
+### Monthly Revenue Trends
+![Monthly Revenue Trends](images/revenue_trends.png)
+
+### Customer Segments
+![Customer Segments](images/customer_segments.png)
 
 ### Monthly Revenue Trends
 ![Monthly Revenue Trends](images/revenue_trends.png)
