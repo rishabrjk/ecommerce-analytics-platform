@@ -1,0 +1,2 @@
+-- Monthly revenue trends query
+-- Replace this with the final BigQuery SQL used in the project.
